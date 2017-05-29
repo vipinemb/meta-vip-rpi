@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote  name="vipemb"
+		fetch="https://github.com/vipinemb/" />
+	<remote  name="openembedded"
+		fetch="git://git.openembedded.org/"/>
+	<remote  name="yocto"
+		fetch="git://git.yoctoproject.org/"/>
+
+	<!-- github/yocto repos -->
+	<project path="rpi-distribution/meta-vip-rpi" name="meta-vip-rpi" remote="vipemb"
+		revision=""/>
+	<project path="rpi-distribution/meta-openembedded" name="meta-openembedded" remote="openembedded"
+		revision="morty"/>
+	<project path="rpi-distribution/poky" name="poky" remote="yocto"
+		revision="morty"/>
+
+</manifest>
