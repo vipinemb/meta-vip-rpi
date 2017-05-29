@@ -14,5 +14,7 @@
 		revision="morty"/>
 	<project path="rpi-distribution/poky" name="poky" remote="yocto"
 		revision="morty"/>
+	<project path="rpi-distribution/meta-raspberrypi" name="meta-raspberrypi" remote="yocto"
+		revision="morty"/>
 
 </manifest>
